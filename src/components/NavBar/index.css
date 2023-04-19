@@ -1,0 +1,45 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ffffff33;
+  padding: 10px;
+}
+
+.emoji-game-container {
+  display: flex;
+}
+
+.emoji-game {
+  font-size: 12px;
+  margin-left: 10px;
+  color: white;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+}
+
+.score-container {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-container {
+    display: flex;
+    width: 16%;
+    justify-content: space-between;
+    margin-right: 40px;
+  }
+}
+
+.score {
+  font-size: 13px;
+  font-family: 'Robot';
+  font-weight: 800;
+  color: white;
+}

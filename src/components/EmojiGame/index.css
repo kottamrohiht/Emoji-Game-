@@ -1,0 +1,34 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9796f0;
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 30px;
+  overflow-y: scroll;
+}
+
+.emoji-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 90%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-item-container {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 60%;
+    width: 40%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px;
+  }
+}

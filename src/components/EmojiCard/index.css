@@ -1,0 +1,28 @@
+.item-container {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #ffffff33;
+}
+
+@media screen and (min-width: 768px) {
+  .item-container {
+    padding: 20px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 2px;
+    background-color: #ffffff33;
+  }
+}
+
+.emoji {
+  height: 50px;
+  width: 50px;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+}

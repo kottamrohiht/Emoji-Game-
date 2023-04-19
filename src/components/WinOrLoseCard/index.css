@@ -1,0 +1,73 @@
+
+.main-container {
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  margin-top: 80px;
+}
+.para-container {
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .para-container {
+    width: 50%;
+    margin-left: 20px;
+    padding: 0px;
+  }
+}
+
+.you-won {
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}
+
+.best-score {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.final-score {
+  color: #6a59ff;
+  font-size: 30px;
+  font-weight: 900;
+  width: 150px;
+  font-family: 'Roboto';
+}
+
+.play-again-button {
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  border-radius: 5px;
+  color: black;
+  background-color: #ffce27;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+.final-img {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .final-img {
+    width: 30%;
+    height: 90%;
+  }
+}
